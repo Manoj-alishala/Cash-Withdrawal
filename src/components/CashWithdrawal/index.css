@@ -1,0 +1,77 @@
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #150b3e;
+  border-radius: 16px;
+  padding: 30px;
+  width: 320px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-icon {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.balance-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-text {
+  color: #585076;
+  font-size: 14px;
+}
+
+.amount {
+  font-size: 28px;
+  margin: 0;
+}
+
+.currency {
+  color: #585076;
+  font-size: 12px;
+  margin-top: -4px;
+}
+
+.withdraw-title {
+  margin-top: 25px;
+  font-weight: 500;
+}
+
+.choose-sum {
+  color: #585076;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.denomination-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
